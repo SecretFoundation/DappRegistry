@@ -1,0 +1,51 @@
+# .github/workflows/lint.yml
+name: Validate Dapp Registry JSON and Image Paths, and Run Prettier
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint_json:
+    name: Check JSON, Image Files, and Code Formatting
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Find and Validate JSON Files
+        run: |
+          # Find all JSON files
+          files=$(find . -name "*.json")
+          # Validate each file with jq and check images
+          for file in $files; do
+            # Validate JSON syntax
+            jq . "$file" > /dev/null || echo "Invalid JSON in $file"
+            
+            # Extract and check image paths
+            jq -r '.icon' "$file" | while read -r icon; do
+              if [ ! -f "$icon" ]; then
+                echo "Missing image file referenced in $file: $icon"
+              fi
+            done
+          done
+
+      - name: Run Prettier on JSON and JavaScript Files
+        run: |
+          prettier --check "**/*.{json,js,ts,jsx,tsx,css,html}"
