@@ -287,13 +287,6 @@
     "tags": ["Wallet"]
   },
   {
-    "name": "Sienna",
-    "link": "https://sienna.network/",
-    "description": "Privacy-first & cross-chain defi platform. Privately swap, lend and convert your tokens into their private equivalent.",
-    "icon": "/img/dapps/siennaswa.webp",
-    "tags": ["dApp", "DeFi"]
-  },
-  {
     "name": "SNIP-20 Transfer History",
     "link": "https://trivium.network/tools",
     "description": "View the transfer history of secret tokens in your wallet.",
