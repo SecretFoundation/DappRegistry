@@ -146,4 +146,11 @@
     "icon": "/img/dapps/testnetfaucet.svg",
     "tags": ["Tool"]
   },
+  {
+    "name": "Silent Swap",
+    "link": "https://www.silentswap.com/",
+    "description": "Private cross chain swaps",
+    "icon": "/img/dapps/silentswap.jpg",
+    "tags": ["Tool"]
+  },
 ]
