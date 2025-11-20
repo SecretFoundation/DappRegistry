@@ -153,4 +153,11 @@
     "icon": "/img/dapps/silentswap.jpg",
     "tags": ["Tool"]
   },
+  {
+    "name": "Erth Network,
+    "link": "https://erth.network",
+    "description": "defi protocol that splits profits among verified humans.",
+    "icon": "/img/dapps/erthnetwork.jpg",
+    "tags": ["Tool"]
+  },
 ]
