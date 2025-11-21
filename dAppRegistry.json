@@ -1,5 +1,19 @@
 [
   {
+    "name": "SecretVM",
+    "link": "https://secretai.scrtlabs.com/",
+    "description": "Run any workload in SecretVMs and get full privacy guarantees and verifiable execution..",
+    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB",
+    "tags": ["dApp", "Tool"]
+  },
+  {
+    "name": "Secret AI",
+    "link": "https://secretai.scrtlabs.com/",
+    "description": " Decentralized Confidential Computing solution that brings trusted AI to users who value their privacy",
+    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB",
+    "tags": ["dApp", "Tool"]
+  },
+  {
     "name": "Stashh",
     "link": "https://stashh.io/",
     "description": "Mint, buy, and trade the first NFTs with native privacy and access control, known as Secret NFTs.",
