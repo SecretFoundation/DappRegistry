@@ -2,15 +2,15 @@
   {
     "name": "SecretVM",
     "link": "https://secretai.scrtlabs.com/",
-    "description": "Run any workload in SecretVMs and get full privacy guarantees and verifiable execution..",
-    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB",
+    "description": "Run any workload in SecretVMs and get full privacy guarantees and verifiable execution",
+    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB.svg",
     "tags": ["dApp", "Tool"]
   },
   {
     "name": "Secret AI",
     "link": "https://secretai.scrtlabs.com/",
     "description": " Decentralized Confidential Computing solution that brings trusted AI to users who value their privacy",
-    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB",
+    "icon": "/img/dapps/SECRET_BLACK-ICON_RGB.svg",
     "tags": ["dApp", "Tool"]
   },
   {
@@ -19,6 +19,13 @@
     "description": "Mint, buy, and trade the first NFTs with native privacy and access control, known as Secret NFTs.",
     "icon": "/img/dapps/dapp_stashh_1b5ff9f3a5_lo5nfGSI-6.webp",
     "tags": ["dApp", "NFTs"]
+  },
+  {
+    "name": "Zonescan",
+    "link": "https://zonescan.io/secret/overview",
+    "description": "A block explorer for the Cosmos ecosystem, developed by Cosmonaut Stakes",
+    "icon": "/img/dapps/zonescan.jpg",
+    "tags": ["dApp", "Tool"]
   },
   {
     "name": "Shade Protocol",
