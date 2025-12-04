@@ -35,13 +35,6 @@
     "tags": ["dApp", "DeFi"]
   },
   {
-    "name": "Bushi",
-    "link": "https://www.launchonenet.io/bushi",
-    "description": "A competitive third-person shooter that blurs the lines between traditional games, web3 gaming, and esports.",
-    "icon": "/img/dapps/Bushi_Logo_e7f4a6035a_u53uS1dcu.webp",
-    "tags": ["Games"]
-  },
-  {
     "name": "CertUP",
     "link": "https://certup.net/",
     "description": "Revolutionising official document distribution, verification and publication through Secret NFTs.",
