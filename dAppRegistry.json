@@ -155,7 +155,7 @@
   },
   {
     "name": "Testnet Faucet",
-    "link": "https://faucet.pulsar.scrttestnet.com/",
+    "link": "https://pulsar-3-faucet-jf0io44pf-garbonzos-projects.vercel.app/",
     "description": "Get some testnet SCRT for gas fees and start developing on Secret!",
     "icon": "/img/dapps/testnetfaucet.svg",
     "tags": ["Tool"]
